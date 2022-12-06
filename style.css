@@ -1,0 +1,101 @@
+
+body{
+    background-image: url("imgs/istockphoto-1206165331-1024x1024-transformed.jpeg");
+    background-repeat: no-repeat;
+    background-size:inherit;
+    font-family: 'Nerko One', cursive;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 100px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}   
+#toadd{
+    height: 50px;
+    width: 350px;
+    font-size: 25px;
+    border-radius:44px;
+}
+.toaddb{
+    height:50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius:44px;
+
+}
+.taks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+ul li{
+    color:rgb(255, 10, 10);
+    font-size: 60px;
+    list-style-type: none;
+    font-family: 'La Belle Aurore', cursive;
+}
+#deletee{
+    height: 50px;
+    width: 350px;
+    font-size: 25px;
+    border-radius:44px;
+}
+#modifye{
+    height: 50px;
+    width: 350px;
+    font-size: 25px;
+    border-radius:44px;
+    margin-top: 100px;
+    
+}
+.modify{
+    display: flex;
+
+    align-items: left;
+    
+}
+.toaddb1{
+    height:50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius:44px;
+    margin-top: 100px;
+
+}
+.toaddb2{
+    height:50px;
+    width: 250px;
+    font-size: 20px;
+    border-radius:44px;
+    margin-top: 50px;
+
+}
+.add1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.remod{
+    position: absolute;
+    display: flex;
+    left: 66%;
+    margin-top: 100px;
+}
+h2{
+    color: black;
+}
+ul{
+    border-style: solid;
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+    <title>To-do list</title>
+</head>
+<body>
+    <header>
+    <h1>My To-do List</h1>
+    
+        <h2  id="time"></h2>
+
+   
+    </header>
+    <div class="add">
+    <input placeholder="write your task here" id="toadd">
+    <button class="toaddb" onclick="getthevalue()" > Add a Task</button>
+</div>
+<div class="taks">
+    <ul class="allthetaks">
+    </ul>
+</div>
+<div class="remod">
+<input placeholder="the number of the task please" id="deletee">
+  <button class="toaddb" onclick="removee()">i've completed it</button>  
+</div>
+<div class="modify">
+    <input placeholder="the number of the task please" id="modifye">
+  <button class="toaddb1"  onclick="modif()">change it</button>
+  
+     </div >
+     <div class="add1">
+     <input placeholder="the new task" id="themodifayir"" class="toaddb2">
+    </div>
+    
+</body>
+</html>
